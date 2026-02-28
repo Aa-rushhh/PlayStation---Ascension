@@ -4,6 +4,7 @@ import spiderVideo from '../assets/spiderman trialer.webm';
 import rdrVideo from '../assets/rdr 2 trailer.webm';
 import forzaVideo from '../assets/forza trailer.mp4';
 import valoVideo from '../assets/valo trailer.mp4';
+import cyberpunkVideo from '../assets/cyberpunk.mp4';
 
 import SideNav from './SideNav';
 import TopBar from './TopBar';
@@ -42,6 +43,7 @@ const games = [
         title: 'Cyberpunk 2077',
         subtitle: 'PS5 • RPG',
         bg: cyberpunkImg, // Cyberpunk neon city
+        bgVideo: cyberpunkVideo,
         icon: cyberpunkImg, // Neon mask
         progress: '85%',
         isOwned: true,

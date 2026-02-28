@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ghostVideo from '../assets/ghost of tsushima trailer.mp4';
 import spiderVideo from '../assets/spiderman trialer.webm';
+import rdrVideo from '../assets/rdr 2 trailer.webm';
 
 import SideNav from './SideNav';
 import TopBar from './TopBar';
@@ -92,6 +93,7 @@ const games = [
         title: 'Red Dead Redemption 2',
         subtitle: 'PS5 • Open World',
         bg: rdrImg,
+        bgVideo: rdrVideo,
         icon: rdrImg,
         progress: '0%',
         isOwned: false,

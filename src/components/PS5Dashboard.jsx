@@ -16,6 +16,7 @@ import ghostImg1 from '../assets/ghost of tsushima1.jpeg';
 import psLogo from '../assets/ps logo.jpeg';
 import spidermanImg from '../assets/spiderman.jpeg';
 import valoImg from '../assets/valo.jpeg';
+import rdrImg from '../assets/rdr.jpeg';
 
 // Using high quality Unsplash placeholders to mimic premium PlayStation Games
 const games = [
@@ -90,8 +91,8 @@ const games = [
         id: 'g6',
         title: 'Red Dead Redemption 2',
         subtitle: 'PS5 • Open World',
-        bg: 'https://images.unsplash.com/photo-1478147427282-58a87119b581?q=80&w=2070&auto=format&fit=crop',
-        icon: 'https://images.unsplash.com/photo-1457449205106-cf3183569762?q=80&w=2070&auto=format&fit=crop',
+        bg: rdrImg,
+        icon: rdrImg,
         progress: '0%',
         isOwned: false,
         bronze: 0, silver: 0, gold: 0, platinum: 0

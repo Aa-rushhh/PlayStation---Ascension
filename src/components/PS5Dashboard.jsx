@@ -3,6 +3,7 @@ import ghostVideo from '../assets/tsushima trailer.mp4';
 import spiderVideo from '../assets/spiderman trialer.webm';
 import rdrVideo from '../assets/rdr 2 trailer.webm';
 import forzaVideo from '../assets/forza trailer.mp4';
+import valoVideo from '../assets/valo trailer.mp4';
 
 import SideNav from './SideNav';
 import TopBar from './TopBar';
@@ -27,6 +28,7 @@ const games = [
         title: 'Valorant',
         subtitle: 'PS5 • Tactical Shooter',
         bg: valoImg, // Epic landscape
+        bgVideo: valoVideo,
         icon: valoImg, // Neon/character vibe
         progress: '28%',
         isOwned: true,

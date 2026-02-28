@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ghostVideo from '../assets/ghost of tsushima trailer.mp4';
+import ghostVideo from '../assets/tsushima trailer.mp4';
 import spiderVideo from '../assets/spiderman trialer.webm';
 import rdrVideo from '../assets/rdr 2 trailer.webm';
 

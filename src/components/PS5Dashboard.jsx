@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ghostVideo from '../assets/tsushima trailer.mp4';
 import spiderVideo from '../assets/spiderman trialer.webm';
 import rdrVideo from '../assets/rdr 2 trailer.webm';
+import forzaVideo from '../assets/forza trailer.mp4';
 
 import SideNav from './SideNav';
 import TopBar from './TopBar';
@@ -52,6 +53,7 @@ const games = [
         title: 'Forza Horizon 5',
         subtitle: 'PS5 • Racing',
         bg: forzaImg, // Supercar race
+        bgVideo: forzaVideo,
         icon: forzaImg, // Car icon
         progress: '15%',
         isOwned: true,

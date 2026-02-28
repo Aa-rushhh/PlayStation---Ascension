@@ -5,6 +5,7 @@ import rdrVideo from '../assets/rdr 2 trailer.webm';
 import forzaVideo from '../assets/forza trailer.mp4';
 import valoVideo from '../assets/valo trailer.mp4';
 import cyberpunkVideo from '../assets/cyberpunk.mp4';
+import fifaVideo from '../assets/fifa trailer.webm';
 
 import SideNav from './SideNav';
 import TopBar from './TopBar';
@@ -110,6 +111,7 @@ const games = [
         title: 'EA SPORTS FC 24',
         subtitle: 'PS5 • Sports',
         bg: fcImg,
+        bgVideo: fifaVideo,
         icon: fcImg,
         progress: '0%',
         isOwned: false,
